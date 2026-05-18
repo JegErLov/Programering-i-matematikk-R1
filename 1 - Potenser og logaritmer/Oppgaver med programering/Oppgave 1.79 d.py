@@ -1,13 +1,11 @@
-# PS. Trykk alt og z samtidig for å slippe å bla for å lese kommentarene!!!
-# Løs likningen 5 ln(x^3 + 2) = 6 − x med halveringsmetoden.
 from pylab import *
-
-a = 0 # Startverdi intervall (Forandre verdi)
-b = 1 # Sluttverdi intervall (Forandre verdi)
+# Once more with halveringsmetoden (eksempel 26)
+a = 0.0 # Startverdi intervall
+b = 1.0 # Sluttverdi intervall
 noyaktighet = 0.0001 # angir hvor nøyaktig svaret skal være (kan forandres, men kommer ann på oppgaven)
 
 def f(x): # definerer funksjonen
-  return 5*log(x**3 + 2) + x - 6 # (Må forandres på etter hva oppgaven sier, dette er likningen)
+  return 13500 * 1.025**x - 15000 # (Må forandres på etter hva oppgaven sier, dette er likningen)
 
 # Halveringsmetoden:
 m = (a + b)/2   # finner midtpunkt i opprinnelig intervall
@@ -23,4 +21,4 @@ while abs(f(m)) >= noyaktighet: # Så lenge absoluttverdien av f(m) er større e
 print("Løsningen på likningen er tilnærmet lik ", round(m, 4)) # Skriver ut løsningen (Forandre på 4, men i forhold til hvor mange desimaler som er ønsket)
 
 # Output:
-# Løsningen på likningen er tilnærmet lik  0.9146
+# Løsningen på likningen er tilnærmet lik  4.2669
