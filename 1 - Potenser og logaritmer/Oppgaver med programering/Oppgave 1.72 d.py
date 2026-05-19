@@ -1,4 +1,3 @@
-from pylab import *
 # Halveringsmetoden og kode fra eksempel 26 once again husk alt+z
 a = 0.0 # Startverdi intervall
 b = 5.0 # Sluttverdi intervall

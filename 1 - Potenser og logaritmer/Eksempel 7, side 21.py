@@ -1,8 +1,8 @@
 # Programmet nedenfor beregner ln 2.
 
-from pylab import *
+import math
 
-print(log(2))
+print(math.log(2))
 
 # Output (resultat):
 # 0.6931471805599453

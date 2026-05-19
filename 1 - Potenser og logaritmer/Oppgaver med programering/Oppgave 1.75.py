@@ -1,4 +1,3 @@
-from pylab import *
 # Oppgave a og c kan gjøres i GeoGebra, og er derfor ikke med her
 # Vi bruker verdiene som vi fikk fra a som start og slutt verdi
 

@@ -1,10 +1,10 @@
 # Programmet nedenfor meregner log2 16
-from pylab import *
+import math
 
-print(log2(16))
+print(math.log(16,2))
 
 # For å bruke denne koden på andre verdier så er det egentlig bare å forandre på tallet i parantes,
-# i dette tillfellet 16, og log, altså den logen som er ønsket å bruke.
+# i dette tillfellet 16, og log altså 2 tallet bak kommaet, altså den logen som er ønsket å bruke.
 
 # Output til log2(16):
 # 4.0

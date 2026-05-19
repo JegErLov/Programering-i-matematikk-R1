@@ -1,4 +1,3 @@
-from pylab import *
 # Once more with halveringsmetoden (eksempel 26)
 a = 1.0 # Startverdi intervall
 b = 2.0 # Sluttverdi intervall

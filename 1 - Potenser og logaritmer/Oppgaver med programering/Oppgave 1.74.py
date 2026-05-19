@@ -1,6 +1,6 @@
 # I denne oppgaven så ligger både a og b
 # PS. Trykk alt og z samtidig for å slippe å bla for å lese kommentarene!!!
-from pylab import *
+import math
 
 # Oppgave a
 # Denne delen av oppgaven bruker koden fra eksempel 26
@@ -10,7 +10,7 @@ b = 2.0 # Sluttverdi intervall
 noyaktighet = 0.0001 # angir hvor nøyaktig svaret skal være (kan forandres, men kommer ann på oppgaven)
 
 def f(x): # definerer funksjonen
-  return log10(x + 2) - 2 + x # (Må forandres på etter hva oppgaven sier, dette er likningen)
+  return math.log10(x + 2) - 2 + x # (Må forandres på etter hva oppgaven sier, dette er likningen)
 
 # Halveringsmetoden:
 m = (a + b)/2   # finner midtpunkt i opprinnelig intervall

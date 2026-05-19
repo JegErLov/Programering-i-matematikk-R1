@@ -1,5 +1,5 @@
 # Oppgave 1.108 d skal løses med halveringsmetoden (Eksempel 26)
-from pylab import * # Trenger ikke å importere flere ganger
+import math # Trenger ikke å importere flere ganger
 # Husk alt+z for å se alt av kommentarer uten å bla
 
 # 1)
@@ -8,7 +8,7 @@ b = 1.5 # Sluttverdi intervall
 noyaktighet = 0.0001 # angir hvor nøyaktig svaret skal være (kan forandres, men kommer ann på oppgaven)
 
 def f(x): # definerer funksjonen
-  return log10(x**2) + log10(x) # (Må forandres på etter hva oppgaven sier, dette er likningen)
+  return math.log10(x**2) + math.log10(x) # (Må forandres på etter hva oppgaven sier, dette er likningen)
 
 # Halveringsmetoden:
 m = (a + b)/2   # finner midtpunkt i opprinnelig intervall
@@ -56,7 +56,7 @@ b = 0.0 # Sluttverdi intervall    **** Vi kan ikke bruke b = 2 (vet ikke hvorfor
 noyaktighet = 0.0001 # angir hvor nøyaktig svaret skal være (kan forandres, men kommer ann på oppgaven)
 
 def f(x): # definerer funksjonen
-  return log10(x**2) + log10(x) # (Må forandres på etter hva oppgaven sier, dette er likningen)
+  return math.log10(x**2) + math.log10(x) # (Må forandres på etter hva oppgaven sier, dette er likningen)
 
 # Halveringsmetoden:
 m = (a + b)/2   # finner midtpunkt i opprinnelig intervall
