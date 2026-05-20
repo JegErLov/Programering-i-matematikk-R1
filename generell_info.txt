@@ -1,0 +1,12 @@
+Det er noen oppgaver som ikke er gjort, eller gjort på en annen måte enn det som er gjort i boken
+Dette er enten gjort for en simplere forståelse, eller for å slippe å instalere nye moduler. 
+
+Som det sår i info.txt under 7 - Anvendelser og modeller, så er det ikke gjort noen oppgaver der
+dette skyldes at det er ugunstig siden det er en minimalistisk sjankse for at datasett kommer på 
+eksamen. Det er heller ikke noe vi har jobbet mye med i timene, hvis vi i det hele tatt har jobbet 
+med det. 
+
+En annen ting er at kapittel 5 ikke har programering, men er med som en mappe for oversiktlighet
+
+Jeg har også prøvd å forklare oppgavene og kodene så godt som jeg kan, men usikker på om det er 
+forståelig. 
